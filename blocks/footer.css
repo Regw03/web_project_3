@@ -1,0 +1,11 @@
+.footer{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+    padding-bottom: 24px;
+}
+
+.footer__copyright{
+    margin: 0 auto;
+}

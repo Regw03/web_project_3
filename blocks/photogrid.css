@@ -1,0 +1,24 @@
+.photogrid{
+    margin:0 auto;
+    padding-top: 90px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.photogrid__container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-between;
+    gap: 12px;
+    grid-template-columns: repeat( auto-fill, minmax(280px, 1fr));
+}
+
+.photogrid__grid-item{
+    width: 100%;
+    margin: 0 auto;
+}
