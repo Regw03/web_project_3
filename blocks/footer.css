@@ -9,3 +9,15 @@
 .footer__copyright{
     margin: 0 auto;
 }
+
+@media screen and (min-width: 550px) {
+    .footer{
+        padding-top: 88px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .footer{
+        padding-top: 92px;
+    }
+}
