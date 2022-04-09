@@ -43,6 +43,7 @@
 
 @media screen and ( min-width: 550px) {
     .intro{
+        margin: 0;
         padding-top: 88px;
     }
     .intro__title{
@@ -54,5 +55,32 @@
     .intro__quote{
         line-height: 34px;
 
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .intor{
+        margin: 0;
+    }
+    .intro__title{
+        padding-left: 148px;
+        padding-right: 347px;
+        margin: 0;
+        text-align: start;
+    }
+
+    .intro__quote{
+        padding-left: 148px;
+        padding-right: 412px;
+    }
+    
+    .intro__quote-auther{
+        padding-left: 148px;
+        padding-right: 412px;
+    }
+
+    .intro__paragraph{
+        padding-left: 148px;
+        padding-right: 412px;
     }
 }

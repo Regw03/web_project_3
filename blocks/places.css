@@ -1,13 +1,11 @@
 .place{
     margin: 0 auto;
     padding: 0 24px;
-    border: solid red 1px;
-
 }
 
 .place__item{
     padding-top: 62px;
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
     grid-gap: 30px;
     display: grid;
@@ -44,7 +42,9 @@
     font-style: normal;
     line-height: 122%;
     width: 100%;
-    border: solid red 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
 
 }
 
@@ -53,7 +53,7 @@
 }
 
 .place__artist-heading{
-    margin: 0 auto;
+    margin: 0 ;
     color: #AAAAAA;
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -61,8 +61,8 @@
     line-height: 15px;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    display: grid;
-    grid-template-columns: 1fr;
+    align-self: flex-start;
+    justify-self: flex-start;
     align-items: baseline;
     padding-bottom: 8px;
 }
@@ -74,7 +74,7 @@
 }
 .place__image:last-of-type{
     max-width: 460px;
-    max height: 460px;
+    max-height: 460px;
 }
 
 .place__description{
@@ -94,7 +94,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
-    border: solid red 1px;
 }
 
 .place__paragraph:last-of-type{
@@ -124,9 +123,6 @@
 }
 
 @media screen and (min-width: 550px) {
-    .place{
-
-    }
 
     .place__item{
         padding-top: 88px;
@@ -173,28 +169,47 @@
 
 }
 
- @media screen and (min-width: 1080px) {
+  @media screen and (min-width: 1080px) {
+    .place{
+        padding:0;
+    }
+
     .place__item{
         grid-gap: 40px;
     }
+
     .place__title{
         font-size: 72px;
         line-height: 76px;
+        margin-left: 148px;
+        margin-bottom: 8px;
+        display:flex;
+        flex-direction: column;
+        width: 460px
     }
+
     .place__image{
         padding: 0;
         width: 460px;
         height: 460px;
+        margin-left: 148px;
     }
     
     .place__description{
+        margin-right: 148px;
+        margin-left: 0;
+    }
+
+    .place__paragraph{
+        font-size: 18px;
+        line-height: 29.34px;
     }
 
     .place__artist{
-
+        margin-bottom: 8px;
     }
 
     .place__button{
-
+        margin-left: 148px;
     }
-}
+} 

@@ -45,6 +45,7 @@
 @media screen and (min-width: 550px) {
     .lead{
         padding-top: 90px;
+        margin: 0;
     }
     .lead__title{
         font-size: 96px;
@@ -64,5 +65,21 @@
         padding-top: 36px;
     }
     
+}
+@media screen and (min-width: 1080px) {
+    .lead__title{
+        margin: 0 244px 0 244px;
+    }
+
+    .lead__subtitle{
+        padding-left: 280px;
+        padding-right: 280px;
+        margin: 0;
+    }
+
+    .lead__image-container{
+        padding-left: 148px;
+        padding-right: 148px;
+    }
 }
 
