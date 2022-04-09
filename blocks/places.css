@@ -30,7 +30,7 @@
     line-height: 35px;
     align-self: end;
     text-align: left;
-    width: 100%
+    width: 100%;
 }
 
 .place__artist{
@@ -53,7 +53,7 @@
 }
 
 .place__artist-heading{
-    margin: 0 ;
+    margin: 0;
     color: #AAAAAA;
     font-family: "Inter", sans-serif;
     font-weight: 400;

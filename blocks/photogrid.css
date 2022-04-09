@@ -13,7 +13,6 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    justify-content: space-between;
     gap: 12px;
     grid-template-columns: repeat( auto-fill, minmax(280px, 1fr));
 }
