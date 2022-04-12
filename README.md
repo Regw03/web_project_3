@@ -19,4 +19,4 @@ The way you'll do this at work is by exporting images directly from Figma — we
 Good luck and have fun!  
 
 ### Description 
-this project three in the practicum software engineering program. It features html and CSS languages. Using a figma brief this project was created following a mockup a designer had created. This website is responsive to screen sizes. achieved using css grid systems and @media query's. features clicable buttons and images from various students and artist home towns.
+this project three in the practicum software engineering program. It features html and CSS languages. Using a figma brief this project was created following a mockup a designer had created. This website is responsive to screen sizes. achieved using css grid systems and @media query's. features clicable buttons and images from various students and artist home towns. here is the link https://regw03.github.io/web_project_3/
