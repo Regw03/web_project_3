@@ -120,6 +120,7 @@
     line-height: 22px;
     border-radius: 4px;
     text-decoration: none;
+    width: 288px;
 }
 
 .place__button:hover{
