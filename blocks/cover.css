@@ -78,13 +78,14 @@
     font-size: 18px;
     font-style: normal;
     line-height: 21.78px;
+    text-decoration: none;
 }
 
 .cover__button:hover{
     background-color: #0063D2;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 640px) {
     .cover__container{
         margin-top: 92px;
         width: 100%;

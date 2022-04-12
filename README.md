@@ -17,3 +17,6 @@ This is a project that showcases the hometowns of some of Practicum's employees.
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. this project sucked.
   
 Good luck and have fun!  
+
+### Description 
+this project three in the practicum software engineering program. It features html and CSS languages. Using a figma brief this project was created following a mockup a designer had created. This website is responsive to screen sizes. achieved using css grid systems and @media query's. features clicable buttons and images from various students and artist home towns.
