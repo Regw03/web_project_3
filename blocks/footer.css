@@ -8,11 +8,19 @@
 
 .footer__copyright{
     margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    font-style: none;
 }
 
 @media screen and (min-width: 640px) {
     .footer{
         padding-top: 88px;
+    }
+    .footer__copyright{
+        line-height: 16px;
     }
 }
 

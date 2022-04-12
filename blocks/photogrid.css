@@ -21,11 +21,6 @@
     width: 100%;
     margin: 0 auto;
 }
-@media screen and (min-width: 640px) {
-    .photogrid__container{
-        width: 720px
-    }
-}
 @media screen and (min-width: 1080px) {
     .photogrid{
         padding-left: 24px;

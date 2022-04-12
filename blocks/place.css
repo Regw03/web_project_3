@@ -138,7 +138,7 @@
         "image description"
         "button description";
         grid-template-columns: 340px 1fr;
-        ;
+
     }
     
     .place__artist{
@@ -151,7 +151,8 @@
         width: 248px;
         height: 48px;
         margin-top: 23px;
-
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .place__title{
