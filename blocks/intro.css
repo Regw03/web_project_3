@@ -54,7 +54,14 @@
 
     .intro__quote{
         line-height: 34px;
-
+        width: 720px
+    }
+    .intro__quote-auther{
+        width: 720px;
+        
+    }
+    .intro__paragraph{
+        width: 720px
     }
 }
 

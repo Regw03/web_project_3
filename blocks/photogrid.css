@@ -1,5 +1,5 @@
 .photogrid{
-    margin:0 0 17px 0;
+    margin:0;
     padding-top: 90px;
     padding-left: 16px;
     padding-right: 16px;
@@ -20,6 +20,11 @@
 .photogrid__grid-item{
     width: 100%;
     margin: 0 auto;
+}
+@media screen and (min-width: 640px) {
+    .photogrid__container{
+        width: 720px
+    }
 }
 @media screen and (min-width: 1080px) {
     .photogrid{

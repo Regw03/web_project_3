@@ -130,7 +130,7 @@
 
     .place__item{
         padding-top: 88px;
-        grid-gap: 25px;
+        gap: 25px;
         display: grid;
         grid-template-rows: auto auto 1fr;
         grid-template-areas: 
@@ -138,6 +138,7 @@
         "image description"
         "button description";
         grid-template-columns: 340px 1fr;
+        ;
     }
     
     .place__artist{
@@ -150,6 +151,7 @@
         width: 248px;
         height: 48px;
         margin-top: 23px;
+
     }
 
     .place__title{
