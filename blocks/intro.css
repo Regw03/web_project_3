@@ -43,51 +43,42 @@
 
 @media screen and ( min-width: 640px) {
     .intro{
-        margin: 0;
         padding-top: 88px;
+        margin: 0 24px 0 24px;
+        max-width: 720px;
     }
     .intro__title{
         font-size: 54px;
         line-height: 58px;
-        margin: 0 24px 0 24px;
+
     }
 
     .intro__quote{
         line-height: 34px;
-        width: 720px
+
     }
     .intro__quote-auther{
-        width: 720px;
-        
-    }
-    .intro__paragraph{
-        width: 720px
+        max-width: 720px;
     }
 }
 
-@media screen and (min-width: 1080px) {
-    .intor{
-        margin: 0;
-    }
-    .intro__title{
-        padding-left: 148px;
-        padding-right: 347px;
-        margin: 0;
-        text-align: start;
+@media screen and ( min-width: 1080px) {
+    .intro{
+        max-width: 785px;
+        margin: 0 0 0 148px;
     }
 
     .intro__quote{
-        padding-left: 148px;
-        padding-right: 412px;
+        margin: 0;
+        max-width: 720px;
+    }
+    .intro__paragraph{
+        margin: 0;
+        max-width: 720px;
     }
     
     .intro__quote-auther{
-        padding-left: 148px;
-        padding-right: 412px;
+        margin: 0;
     }
-
-    .intro__paragraph{
-        padding-left: 148px;
-        padding-right: 412px;
-    }
+    
 }

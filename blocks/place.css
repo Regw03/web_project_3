@@ -32,6 +32,7 @@
     align-self: end;
     text-align: left;
     width: 100%;
+
 }
 
 .place__artist{
@@ -138,8 +139,10 @@
         "image description"
         "button description";
         grid-template-columns: 340px 1fr;
-
+        padding-left: 24px;
+        padding-right: 24px;
     }
+
     
     .place__artist{
         margin: 0;
