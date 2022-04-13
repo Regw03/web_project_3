@@ -145,7 +145,8 @@
         padding-top: 88px;
     }
     .place__item{
-        gap: 25px;
+        row-gap: 46px;
+        column-gap: 28px;
         display: grid;
         grid-template-rows: auto auto 1fr;
         grid-template-areas: 
