@@ -16,6 +16,7 @@
         "image"
         "description"
         "button";
+    box-sizing: border-box;
 }
 
 
