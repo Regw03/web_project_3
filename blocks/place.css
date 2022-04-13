@@ -156,7 +156,10 @@
         padding-left: 24px;
         padding-right: 24px;
     }
-
+    
+    .place__description{
+        padding: 0;
+    }
     
     .place__artist{
         margin: 0;
