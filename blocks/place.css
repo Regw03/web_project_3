@@ -2,10 +2,13 @@
     margin: 0 auto;
     padding: 0;
     max-width: 984px;
+    display: grid;
+    gap: 50px;
+    padding-top: 62px;
 }
 
 .place__item{
-    padding-top: 62px;
+
     margin: 0;
     width: 100%;
     gap: 30px;
@@ -24,7 +27,8 @@
 .place__title{
     grid-area: title;
     margin: 0 auto;
-    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right:16px;
     font-family: "Inter", sans-serif;
     font-weight: 900;
     font-size: 32px;
@@ -33,10 +37,13 @@
     align-self: end;
     text-align: left;
     width: 100%;
+    box-sizing: border-box;
 
 }
 
 .place__artist{
+    padding-left: 16px;
+    padding-right:16px;
     grid-area: artist;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
@@ -48,6 +55,7 @@
     display: flex;
     flex-direction: column;
     text-align: start;
+    box-sizing: border-box;
 
 }
 .place__artist-name{
@@ -90,6 +98,9 @@
     font-size: 16px;
     font-style: normal;
     line-height: 163%;
+    padding-left: 16px;
+    padding-right:16px;
+    box-sizing: border-box;
 }
 
 .place__paragraph{
@@ -129,9 +140,11 @@
 }
 
 @media screen and (min-width: 640px) {
-
-    .place__item{
+    .place{
+        gap: 72px;
         padding-top: 88px;
+    }
+    .place__item{
         gap: 25px;
         display: grid;
         grid-template-rows: auto auto 1fr;
@@ -175,12 +188,14 @@
 
   @media screen and (min-width: 1080px) {
     .place{
-        padding:0;
+        padding-top: 92px;
+        gap: 80px;
     }
 
     .place__item{
         gap: 40px;
         grid-template-columns: 460px 1fr;
+        padding-top: 0;
     }
 
     .place__title{
