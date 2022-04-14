@@ -194,13 +194,13 @@
     .place{
         padding-top: 92px;
         gap: 80px;
-        max-width: 987px;
+        max-width: 984px;
     }
 
     .place__item{
         gap: 40px;
         grid-template-columns: 460px 1fr;
-        padding-top: 0;
+        padding: 0;
     }
 
     .place__title{
